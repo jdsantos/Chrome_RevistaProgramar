@@ -1,0 +1,17 @@
+{
+  "name": "Revista PROGRAMAR - Extension",
+  "version": "1.0",
+  "manifest_version": 2,
+  "description": "Brings up all released magazines",
+  "browser_action": {
+    "default_icon": "icon.png",
+	"default_popup": "popup.html"
+  },
+  "icons": { "16": "icon16.png",
+           "48": "icon48.png",
+          "128": "icon128.png" },
+  "permissions": [
+    "http://www.revista-programar.info/?action=editions",
+	"notifications"
+  ]
+}
